@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-hover: rgba(35, 169, 200, 0.7);
+    --color-active: rgba(5, 169, 200, 0.5);
+    --color-selected: rgba(5, 169, 200, 0.3);
+}
+
+@layer base {
+    html,
+    body {
+        background-color: var(--color-gray-50);
+    }
+}
